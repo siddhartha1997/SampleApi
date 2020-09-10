@@ -36,7 +36,7 @@ namespace SampleApi.Controllers
             .ToArray();
         }
         [HttpGet]
-        [Route("GetAllDetails()")]
+        [Route("GetAllDetails")]
         public string GetAllDetails()
         {
             return "Welcome to the GetDetails Api";
